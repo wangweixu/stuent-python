@@ -28,6 +28,7 @@ print('\n---复制列表，指向同一个列表---')
 my_foods = ['pizza','falafel','carrot cake']
 friend_foods = my_foods
 my_foods.append('cannoli')
+
 friend_foods.append('ice cream')
 print("My favorite foods are:")
 print(my_foods)
