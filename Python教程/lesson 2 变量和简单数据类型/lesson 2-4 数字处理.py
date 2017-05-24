@@ -1,4 +1,5 @@
-#coding:utf-8
+# coding:utf-8
+
 num = 15.88
 str1 = 'wang'
 print('---字符串连接数字--')

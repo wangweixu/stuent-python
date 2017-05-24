@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 
 print('---添加制表位---')
 print('\tPython')

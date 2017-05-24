@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 
 print('---删除字符串结尾多余的空白---')
 favorite_language = ' python '
