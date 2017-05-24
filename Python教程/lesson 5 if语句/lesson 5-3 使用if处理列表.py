@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 
 print("---检查特殊元素---")
 requested_toppings = ['mushrooms','green peppers','extra cheese']
