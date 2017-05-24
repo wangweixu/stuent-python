@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 
 name = "ada LOVElace"
 print('---使用title(),首字母大写---')
