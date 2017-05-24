@@ -1,8 +1,8 @@
-#coding:utf-8
-magicians = ['alice','david','carolina']
+# coding:utf-8
+magicians = ['alice', 'david', 'carolina']
 
 print('----遍历整个列表----')
-for magician in magicians:     #从magicians列表中取出一个值，并赋值给变量magician。
+for magician in magicians:     # 从magicians列表中取出一个值，并赋值给变量magician。
     print(magician)
 
 print('\n----在for循环中更多的操作----')

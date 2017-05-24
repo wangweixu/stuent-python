@@ -1,8 +1,8 @@
 # coding:utf-8
-motorcycles = ['honda','yamaha','suzuki']
+motorcycles = ['honda', 'yamaha', 'suzuki']
 
 print("----使用del删除第一元素---")
-del_motorcycles = motorcycles[:]   #列表复制
+del_motorcycles = motorcycles[:]   # 列表复制
 del del_motorcycles[0]
 print(del_motorcycles)
 

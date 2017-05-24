@@ -1,5 +1,5 @@
-#coding:utf-8
-cars = ['bmw','audi','toyota','subaru']
+# coding:utf-8
+cars = ['bmw', 'audi', 'toyota', 'subaru']
 
 print("----使用sort()对列表进行永远排序，按首字母顺序排列---")
 cars1 = cars[:]
