@@ -13,7 +13,7 @@ describe_pet('hamster', 'harry')
 describe_pet('dog', 'willie')
 
 print("---关键字实参---")
-describe_pet(animal_type='dog', pet_name='willie') # 给形参animal_type给赋值了'dog'，形参pet_name给赋值了'willie'
+describe_pet(animal_type='dog', pet_name='willie')  # 给形参animal_type给赋值了'dog'，形参pet_name给赋值了'willie'
 describe_pet(pet_name='willie', animal_type='dog')
 
 print("---默认值---")
