@@ -20,7 +20,7 @@ print(musician)
 print("\n---返回字典---")
 
 
-def build_person(first_name, last_name, age = ''):
+def build_person(first_name, last_name, age=''):
     """返回一个字典，其中包含有关一个人的信息"""
     person = {'first': first_name, 'last': last_name}
     if age:
@@ -30,10 +30,10 @@ def build_person(first_name, last_name, age = ''):
 
 musician = build_person('jimi', 'hendrix')
 print(musician)
-musician = build_person('jimi', 'hendrix', age = 27)
+musician = build_person('jimi', 'hendrix', age='27')
 print(musician)
 
-print("---结合使用函数和while循环---")
+print("\n---结合使用函数和while循环---")
 
 
 def get_formatted_name(first_name, last_name, middle_name):
@@ -56,6 +56,5 @@ while True:
     l_name = input("Last name: ")
     if l_name == 'q':
         break
-
     formatted_name = get_formatted_name(f_name, l_name, m_name)
     print("\nHello, " + formatted_name + "!")
