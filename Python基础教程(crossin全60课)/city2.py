@@ -1,7 +1,7 @@
 # coding:utf-8
 
-def city:
-##========获取所有省/直辖市的编码===##
+def city():
+## ========获取所有省/直辖市的编码===
         import urllib2
         url1 = 'http://m.weather.com.cn/data5/city.xml'
         content1 =  urllib2.urlopen(url1).read()
@@ -10,12 +10,12 @@ def city:
 
         result = 'city = {\n'
         cities2 = 'city = {\n'
-##========获取每个省的城市的编码===##
+##========获取每个省的城市的编码===
         a = 1
         url = 'http://m.weather.com.cn/data5/city%s.xml'
         for p in provinces:
                 p_code = p.split('|')[0]
-                #print p_code.decode("utf-8")
+                # print p_code.decode("utf-8")
                 url2 = url % p_code
                 content2 =  urllib2.urlopen(url2).read()
                 #print content2.decode("utf-8")
