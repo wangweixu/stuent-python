@@ -1,20 +1,18 @@
 # coding:utf-8
 
-def sayHello():
+def _sayhello():
     print 'hello world'
 
-sayHello()
+
+_sayhello()
+
+def _abc(name):
+    print name + ' says Hello'
 
 
+_abc(u'宝宝')
 
-def abc(name):
-    print name +' says Hello'
-
-abc(u'宝宝')
-
-
-
-def P(x,y):
+def multiplication(x, y):
     print x*y
 
 
@@ -22,10 +20,11 @@ print 'A'
 A = input()
 print 'B'
 B = input()
-P(A,B)
+multiplication(A, B)
 
 
-def plus(a,b):
+def plus(a, b):
     print a+b
 
-plus(3,5)
+
+plus(3, 5)

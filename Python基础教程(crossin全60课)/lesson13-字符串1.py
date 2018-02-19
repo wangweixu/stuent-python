@@ -1,21 +1,21 @@
-str = 'He said,"I\'m yours!"'
-print str
+a = 'He said,"I\'m yours!"'
+print a
 
-str = '\\\_v_//'
-print str
+a = '\\\_v_//'
+print a
 
-str = '\n Stay hungry,\n stay foolish.\n --Steve Jobs'
-print str
+a = '\n Stay hungry,\n stay foolish.\n --Steve Jobs'
+print a
  
-str = '''
+a = '''
 *
 ***
 *****
 ***
 *
 '''
-print str
+print a
 
-str = 'he is \
+a = 'he is \
 a man'
-print str
+print a

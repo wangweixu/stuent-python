@@ -6,10 +6,10 @@ while a != 0:   # 先a不等于0就一直做
 print "over"
 
 mun = 10
-bingo = False
+bingo = True
 
 print "Guess what I think?"
-while bingo == False:
+while bingo:
     answer = input()
     if answer < mun:
         print "too small!"

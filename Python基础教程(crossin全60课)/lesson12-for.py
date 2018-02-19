@@ -3,5 +3,5 @@ a = input()
 print "b"
 b = input()
 
-for i in range(a,b):
+for i in range(a, b):
     print i
