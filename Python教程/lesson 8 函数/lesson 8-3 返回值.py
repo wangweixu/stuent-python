@@ -2,7 +2,6 @@
 
 print("---返回值---")
 
-
 def get_formatted_name(first_name, last_name, middle_name=''):
     """返回整洁的姓名"""
     if middle_name:
