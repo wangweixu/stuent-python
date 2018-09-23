@@ -8,7 +8,7 @@ def get_formatted_name(first_name, last_name, middle_name=''):
         full_name = first_name + ' ' + middle_name + ' ' + last_name
     else:
         full_name = first_name + ' ' + last_name
-    return full_name.title()    # 在函数中，可使用retrun语句将值返回到调用函数的代码行。
+    return full_name.title()    # 在函数中，可使用retrun语句将值返回到调用函数的代码行12。
 
 musician = get_formatted_name('jimi', 'hendrix')
 print(musician)
