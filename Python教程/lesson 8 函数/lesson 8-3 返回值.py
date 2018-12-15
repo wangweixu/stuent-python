@@ -49,6 +49,7 @@ while True:
     if f_name == 'q':
         break
     m_name = input("Middle_ name: ")
+
     if m_name == 'q':
         break
     l_name = input("Last name: ")
